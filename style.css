@@ -1,0 +1,225 @@
+/*
+Theme Name: Home Builder
+Theme URI : http://nijjwal.com/mytheme
+Description: My bootstrap 3 responsive theme
+Author: Nijjwal 
+Author URI: http://www.nijjwal.com
+Version: 1
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
+*/
+
+@import url('css/bootstrap.min.css');
+
+
+html,body{
+	height: 100%;
+}
+
+
+#logo{
+	margin-top: -15px;
+}
+
+
+.navbar-inverse { 
+	background-color: #FFFFFF;
+	font-size: 17px;
+	font-family: "proxima-nova",sans-serif;
+	font-weight: 400;
+	filter: none;
+
+}
+
+
+
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: transparent;}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #010208}
+.dropdown-menu { background-color: #FFFFFF}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #428BCA}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+.navbar-inverse { border-color: #FFFCFE}
+.navbar-inverse .navbar-brand { color: #382999}
+.navbar-inverse .navbar-brand:hover { color: #FFCA1C}
+.navbar-inverse .navbar-nav>li>a { color: #990303}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #909091}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #990303}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #909091}
+.dropdown-menu>li>a { color: #333333}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {	
+	background-color: transparent;
+}
+
+
+.navbar-inverse li {
+	border-right: 1px solid gray;
+}
+
+.navbar-inverse li:last-child {
+	border: none ;
+}
+
+
+#navbgimg{
+	background-image:url('images/header.png');
+	margin-bottom: 0px;
+}
+
+
+.front-page-carousel{
+	width: 100%;
+}
+
+
+#footer{
+	width: 100%;
+	bottom: 0px;
+    position: absolute;
+}
+
+.align-right{
+	text-align: right;
+}
+
+.parent-page-title-below-static-img h3{
+    font-size: 20px;
+    background-color: #921e13;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 0 0 10px;
+    padding: 10px 15px;
+}
+
+
+.child-page-title-below-static-image h2{
+    color: #333;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0 5px;
+}
+
+.share-this-text h5 {
+    color: #921e13;
+    float: right;
+    line-height: 15px;
+    margin-right: 10px;
+    margin-top: -6px;
+    padding: 3px;
+}
+
+
+
+.left-nav-list ul li a{
+    background-image: url("images/arrow_right.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-radius: 0 !important;
+    display: block;
+    font-size: 17px;
+    font-weight: 400;
+    height: auto;
+    padding: 10px 40px 10px 0px;
+    position: relative;
+    color: #921e13;
+    border-bottom: 1px solid #DDD;
+    list-style-type: none;
+    text-align: left;
+    font-family: "proxima-nova", sans-serif;
+    margin-left: 0px;
+}
+
+.left-nav-list ul li a:hover{
+    background-color: #ddd !important;
+
+}
+
+ul{
+    padding-left: 0px;
+}
+
+.left-nav-list ul li a{
+    padding-left: 15px;
+}
+
+/*Remove bullets from li elements*/
+ul li {
+    list-style-type: none;
+}
+
+/*Remove underline when hovered*/
+a:hover{
+    text-decoration: none;
+}
+
+
+
+.featured-image-listing img{
+    border: 10px solid #ccc;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+.street h4{
+    font-size: 19px !important;
+    font-weight: 400;
+    color: #333;
+    font-family: "proxima-nova",sans-serif;
+    line-height: 15px !important;
+}
+
+.city-and-state h4{
+    color: #921e13;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "proxima-nova",sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.plan{
+    color: #921e13;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "proxima-nova",sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.one-listing{
+    margin-bottom: 100px;
+}
+
+
+.single-listing-street-and-price h3{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    color: #921E13;
+    margin-top: 0px;
+}
+
+.single-listing-city-state-zip h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    font-family: "proxima-nova",sans-serif;
+}
+
+.single-listing-header-info{
+    font-size: 14px;
+    color: #333;
+    font-family: "proxima-nova",sans-serif;
+}
